@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    top: 0;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 24px;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding:20px;
+}
+.content {
+    padding:20px;
+}
+
+#one {
+    background-color: black;
+    color: yellow;
+    margin-top: 0;
+    padding: 400px 100px 200px 100px;
+    display: flex;
+
+}
+#one p{
+    font-size: 3rem;
+    text-align: center;
+}
+#two {
+    background-color: pink;
+    color: yellow;
+}#three {
+    background-color: blue;
+    color: yellow;
+}#one {
+    background-color: black;
+    color: yellow;
+}#five {
+    background-color: black;
+    color: yellow;
+}
+/* how should i make it disappear? */
+@media (max-width: 600px) {
+    #nav .disappear {
+        display: none !important;
+    }
+}
+button {
+    color: yellow;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 100px;
+    margin: 5px;
+    padding:20px;
+    line-height: 1;
+}
+button:hover {
+    cursor: pointer;
+    color: red;
+}
